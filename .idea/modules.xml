@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/cart.iml" filepath="$PROJECT_DIR$/.idea/cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-cart-service/cart-api-cart-service.iml" filepath="$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-cart-service/cart-api-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-parent/cart-api-cart-service-impl/cart-api-cart-service-impl.iml" filepath="$PROJECT_DIR$/cart-parent/cart-api-cart-service-impl/cart-api-cart-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-consumer-service/cart-api-consumer-service.iml" filepath="$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-consumer-service/cart-api-consumer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-parent/cart-api-consumer-service-impl/cart-api-consumer-service-impl.iml" filepath="$PROJECT_DIR$/cart-parent/cart-api-consumer-service-impl/cart-api-consumer-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-product-service/cart-api-product-service.iml" filepath="$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-product-service/cart-api-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-parent/cart-api-product-service-impl/cart-api-product-service-impl.iml" filepath="$PROJECT_DIR$/cart-parent/cart-api-product-service-impl/cart-api-product-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-service.iml" filepath="$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-parent/cart-common/cart-common.iml" filepath="$PROJECT_DIR$/cart-parent/cart-common/cart-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-config-client/cart-config-client.iml" filepath="$PROJECT_DIR$/cart-config-client/cart-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-config-server/cart-config-server.iml" filepath="$PROJECT_DIR$/cart-config-server/cart-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-eureka-server/cart-eureka-server.iml" filepath="$PROJECT_DIR$/cart-eureka-server/cart-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-parent/cart-parent.iml" filepath="$PROJECT_DIR$/cart-parent/cart-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart-zuul-gateway/cart-zuul-gateway.iml" filepath="$PROJECT_DIR$/cart-zuul-gateway/cart-zuul-gateway.iml" />
+    </modules>
+  </component>
+</project>

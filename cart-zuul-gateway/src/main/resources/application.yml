@@ -1,0 +1,64 @@
+###api网关端口号
+server:
+  port: 8111
+###网关名称
+spring:
+  application:
+    name: service-zuul
+###服务注册地址
+
+eureka:
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: dragon.com
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8100/eureka/
+#  cloud:
+#    config:
+#    ####读取后缀
+#      label: master
+#      profile: dev
+#      ####读取config-server注册地址
+#      discovery:
+#        service-id: config-server
+#        enabled: true
+
+###默认服务读取eureka注册服务列表 默认间隔30秒
+
+###开启所有监控中心接口
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+zuul:
+  host:
+    connect-timeout-millis: 15000 #HTTP连接超时大于Hystrix的超时时间
+    socket-timeout-millis: 60000   #socket超时
+  routes:
+    app-cart-cart:
+      path: /apiCart/**
+      serviceId: app-cart-cart
+      url: http://localhost:8003/
+      stripPrefix: true
+    app-cart-consumer:
+      path: /apiConsumer/**
+      serviceId: app-cart-consumer
+      url: http://localhost:8001/
+      stripPrefix: true
+    app-cart-product:
+      path: /apiProduct/**
+      serviceId: app-cart-product
+      url: http://localhost:8007/
+      stripPrefix: true
+  sensitive-headers:
+    - Cookies,Authorization
+ribbon:        #设置ribbon的超时时间小于zuul的超时时间
+  ReadTimeout: 10000
+  ConnectTimeout: 10000

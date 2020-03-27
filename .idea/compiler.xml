@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cart-api-cart-service" />
+        <module name="cart-api-cart-service-impl" />
+        <module name="cart-api-consumer-service" />
+        <module name="cart-api-consumer-service-impl" />
+        <module name="cart-api-product-service" />
+        <module name="cart-api-product-service-impl" />
+        <module name="cart-common" />
+        <module name="cart-config-client" />
+        <module name="cart-config-server" />
+        <module name="cart-eureka-server" />
+        <module name="cart-zuul-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cart-api-cart-service" target="1.8" />
+      <module name="cart-api-cart-service-impl" target="1.8" />
+      <module name="cart-api-consumer-service" target="1.8" />
+      <module name="cart-api-consumer-service-impl" target="1.8" />
+      <module name="cart-api-product-service" target="1.8" />
+      <module name="cart-api-product-service-impl" target="1.8" />
+      <module name="cart-api-service" target="1.8" />
+      <module name="cart-common" target="1.8" />
+      <module name="cart-config-client" target="1.8" />
+      <module name="cart-config-server" target="1.8" />
+      <module name="cart-eureka-server" target="1.8" />
+      <module name="cart-parent" target="1.8" />
+      <module name="cart-zuul-gateway" target="1.8" />
+      <module name="common" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

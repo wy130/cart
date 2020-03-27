@@ -1,0 +1,32 @@
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:8100/eureka
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: config-client
+  cloud:
+    config:
+#      uri:  http://localhost:8888/
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
+        service-id: config-server
+
+server:
+  port: 8886
+management:
+  security:
+    enabled: false
+  server:
+    port: 8886
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+

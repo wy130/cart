@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cart-parent/cart-api-service" />
+    <file type="web" url="file://$PROJECT_DIR$/cart-parent/src/main/java" />
+    <file type="web" url="file://$PROJECT_DIR$/cart-parent/src/main/resources" />
+    <file type="web" url="file://$PROJECT_DIR$/cart-parent/src/test/java" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/cart-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cart-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cart-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cart-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/cart-zuul-gateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

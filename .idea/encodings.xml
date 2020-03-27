@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cart-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-parent/cart-api-cart-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-parent/cart-api-consumer-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-parent/cart-api-product-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-parent/cart-api-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-cart-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-consumer-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-parent/cart-api-service/cart-api-product-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-parent/cart-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart-zuul-gateway" charset="UTF-8" />
+  </component>
+</project>
